@@ -1,0 +1,154 @@
+* {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.nav {
+  height: 10rem;
+  width: auto;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo {
+  height: 5rem;
+  width: 5rem;
+  background-color: green;
+  border-radius: 20%;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+#links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  height: 7rem;
+  width: 40rem;
+}
+
+.source {
+  height: 2rem;
+  width: 10rem;
+  margin: 6px;
+  background-color: green;
+}
+
+#profile {
+  height: 5rem;
+  width: 5rem;
+  margin: 6px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.aside {
+  height: 30rem;
+  width: 25rem;
+  background-color: black;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.articles {
+  height: 2rem;
+  width: 10rem;
+  margin-top: 40px;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+}
+
+.articleTop {
+  height: 10rem;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.articleBottom {
+  height: 10rem;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+#card1 {
+  height: 10rem;
+  width: 30rem;
+  background-color: yellow;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#card2 {
+  height: 10rem;
+  width: 30rem;
+  background-color: orange;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#card3 {
+  height: 10rem;
+  width: 30rem;
+  background-color: red;
+  margin: 20px;
+  border-radius: 10%;
+}
+#card4 {
+  height: 10rem;
+  width: 30rem;
+  background-color: orchid;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+.footer {
+  height: 20rem;
+  width: auto;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+#detail1 {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 40px;
+  background-color: green;
+}
+#detail2 {
+  height: 3rem;
+  width: 20rem;
+  background-color: green;
+  margin-top: 220px;
+}
+#detail3 {
+  height: 20rem;
+  width: 20rem;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: green;
+  margin: 15px;
+  margin-top: 200px;
+}

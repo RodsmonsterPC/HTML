@@ -1,24 +1,65 @@
-.figures{
- display: flex;
- justify-content: space-between;
+.body {
+  height: 100;
+  width: 100;
+  margin: 0;
+}
+#title {
+  margin-left: 40px;
+}
+.nav {
+  height: 8rem;
+  width: auto;
+  margin: 0;
+  border-radius: 3%;
+  background-color: greenyellow;
 }
 
-
-#rectangle{
-    height: 6rem;
-    width: 15rem;
-    background-color: blue;
+#navbar {
+  height: 2rem;
+  width: 115rem;
+  background-color: green;
+  border-radius: 9%;
 }
 
-#square{
-    height: 8rem;
-    width: 8rem;
-    background-color: brown;
+.aside {
+  height: 30rem;
+  width: 20rem;
+  background-color: orange;
+  border-radius: 10%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
-#circle{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    background-color: black;
+.main {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 10%;
+  margin-top: 60px;
+  background-color: red;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+}
+.article {
+  height: 4rem;
+  width: 23rem;
+  background-color: wheat;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10%;
+}
+.list {
+  margin-top: 130px;
+}
+.footer {
+  height: 20rem;
+  width: auto;
+  border-radius: 10%;
+  background-color: blueviolet;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
 }
