@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 90px;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 main {
@@ -34,7 +35,7 @@ main {
 .annualPlan {
   height: 35%;
   width: 15rem;
-  background-color: antiquewhite;
+  background-color: hsl(225, 100%, 98%);
   margin-top: 20px;
   margin-left: 40px;
   border-radius: 0.5rem;
@@ -67,16 +68,17 @@ main {
   width: 15rem;
   border-radius: 0.5rem;
   height: 35px;
-  background-color: blue;
+  background-color: hsl(245, 75%, 52%);
   color: white;
   margin-bottom: 20px;
 }
 
 #button div {
-  background-color: blue;
+  background-color: hsl(245, 75%, 52%);
   border-radius: 0.5rem;
 }
 
 #buttons a {
   text-decoration: none;
+  color: hsl(224, 23%, 55%);
 }
