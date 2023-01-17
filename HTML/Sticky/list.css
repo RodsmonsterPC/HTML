@@ -1,0 +1,35 @@
+* {
+  color: white;
+  background: linear-gradient(
+    to right,
+    red,
+    brown,
+    orange,
+    yellow,
+    blue,
+    green,
+    violet,
+    pink
+  );
+}
+body {
+  height: 300vh;
+}
+h1[class*="stick"] {
+  height: 50px;
+  background-color: white;
+  color: #333;
+}
+
+.stick1 {
+  position: sticky;
+  top: 0;
+}
+.stick2 {
+  position: sticky;
+  top: 50px;
+}
+.stick3 {
+  position: sticky;
+  top: 100px;
+}

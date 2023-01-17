@@ -1,0 +1,27 @@
+.window {
+  width: 50vw;
+  height: 50vh;
+  background-color: aqua;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

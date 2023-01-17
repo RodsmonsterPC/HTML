@@ -1,0 +1,17 @@
+body {
+  height: 300vh;
+  background: linear-gradient(
+    90deg,
+    rgba(176, 174, 238, 1) 0%,
+    rgba(29, 30, 31, 1)
+  );
+  position: relative;
+}
+.navbar {
+  height: 100px;
+  width: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+}
