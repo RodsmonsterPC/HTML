@@ -1,0 +1,29 @@
+@media screen and (max-width: 425px) {
+  body {
+    background-color: antiquewhite;
+  }
+  figure {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+  }
+}
+
+@media screen and (min-with: 426px) and (max-width: 768px) {
+  body {
+    background-color: aqua;
+  }
+  .figure {
+    border-radius: 100%;
+    background-color: aquamarine;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blueviolet;
+  }
+  .figure {
+    border-radius: 10%;
+    background-color: red;
+  }
+}
