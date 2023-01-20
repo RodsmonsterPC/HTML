@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.figure {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+@media screen and (min-with: 426px) and (max-width: 768px) {
+  .figure {
+    background-color: aquamarine;
+    border-radius: 0%;
+    animation: changeFigure 4s linear infinite;
+  }
+}
+@media screen and (min-width: 768px) {
+  @keyframes changeFigure {
+    0% {
+      border-radius: 50%;
+      background-color: rgb(191, 0, 255);
+    }
+    25% {
+      border-radius: 25%;
+      background-color: rgb(38, 35, 243);
+    }
+    50% {
+      border-radius: 0%;
+      background-color: rgb(243, 188, 35);
+    }
+    75% {
+      border-radius: 25%;
+    }
+    100% {
+      border-radius: 50%;
+    }
+  }
+}
