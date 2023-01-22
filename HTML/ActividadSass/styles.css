@@ -1,0 +1,30 @@
+body {
+  background-color: hsl(226deg, 43%, 10%);
+}
+
+.container {
+  display: flex;
+  background-color: hsl(235deg, 46%, 20%);
+}
+
+.card-work {
+  background-color: hsl(15deg, 100%, 70%);
+}
+.card-play {
+  background-color: hsl(195deg, 74%, 62%);
+}
+.card-study {
+  background-color: hsl(348deg, 100%, 68%);
+}
+.card-profile {
+  background-color: hsl(246deg, 80%, 60%);
+}
+.card-exercise {
+  background-color: hsl(145deg, 58%, 55%);
+}
+.card-selfCare {
+  background-color: hsl(43deg, 84%, 65%);
+}
+.card-social {
+  background-color: hsl(264deg, 64%, 52%);
+}/*# sourceMappingURL=styles.css.map */

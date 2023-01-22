@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.container {
+  width: calc(100vw - 2rem);
+  margin: 0 auto;
+  display: flex;
+}
+.container .main-section {
+  border: 1px solid red;
+}
+.container > div {
+  border: 1px spñid blue;
+}
+.container .aside {
+  border: 1px solid peru;
+}
+.container .aside nav {
+  background-color: gray;
+}
+.container .aside nav a {
+  text-decoration: none;
+  color: #333;
+}
+.container .aside nav a.active {
+  border: 1px solid red;
+}
+.container .aside nav a.active + a {
+  background-color: peru;
+}/*# sourceMappingURL=styles.css.map */
