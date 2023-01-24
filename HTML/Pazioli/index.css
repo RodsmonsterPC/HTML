@@ -110,6 +110,15 @@ header .logo {
   height: 194px;
   margin-top: 30px;
 }
+.intro .publish {
+  display: none;
+}
+.intro .publish .icon {
+  width: 10px;
+  height: 16px;
+  margin: 20px;
+  margin-right: 52px;
+}
 @media only screen and (min-width: 768px) {
   .intro .title-2 {
     font-size: 56px;
@@ -119,5 +128,11 @@ header .logo {
   .intro .piano {
     width: 589px;
     height: 454px;
+  }
+  .intro .publish {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -234px;
   }
 }/*# sourceMappingURL=index.css.map */
