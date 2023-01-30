@@ -1,0 +1,106 @@
+h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+}
+
+img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+}
+
+.profile {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.container-fluid {
+  background-color: hsl(210deg, 46%, 95%);
+}
+
+.card-daniel {
+  background-color: hsl(263deg, 55%, 52%);
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 100%);
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 65%;
+}
+.card-daniel img {
+  border: solid pink 0.2rem;
+}
+.card-daniel p:first-of-type {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+.card-jonathan {
+  background-color: hsl(217deg, 19%, 35%);
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 100%);
+}
+.card-jonathan p:first-of-type {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+.card-jeanette {
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 81%);
+  background-color: white;
+}
+.card-jeanette h1 {
+  color: hsl(219deg, 29%, 14%);
+}
+.card-jeanette p:first-of-type {
+  color: hsl(219deg, 29%, 14%);
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+.card-patrick {
+  background-color: hsl(219deg, 29%, 14%);
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 100%);
+}
+.card-patrick img {
+  border: solid hsl(263deg, 55%, 52%) 0.2rem;
+}
+.card-patrick p:first-of-type {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+.card-kira {
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 81%);
+  background-color: white;
+}
+.card-kira h1 {
+  color: hsl(219deg, 29%, 14%);
+}
+.card-kira p:first-of-type {
+  color: hsl(219deg, 29%, 14%);
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.card-kira img {
+  margin-left: 20px;
+}
+.card-kira p {
+  margin-left: 20px;
+}/*# sourceMappingURL=styles.css.map */
